@@ -1,4 +1,3 @@
-# cs224w
 Repository for cs224w project "Stock Recommendation using Information Connection from Financial Bipartite Graph"
 
 
@@ -9,8 +8,11 @@ for JODIE: https://github.com/srijankr/jodie/
 
 As described in project report and poster, we constructed three graphs using SF3 dataset.
 
-1. Directed Investor-Investor Graph: two investors share an edge if they invest to same stock in subsequent quarters.  This graph is used for role detection (HITs analysis, PageRank analysis, and Motif analysis)
+1. Directed Investor-Investor Graph: two investors share an edge if they invest to the same stock in subsequent quarters.  This graph is used for role detection (HITs analysis, PageRank analysis, and Motif analysis)
 
-2. Undirected Investor-Investor Graph: two investors share an edge if they invest to same stock in a same quarter.  This graph is used for community detection (Louvain algorithm)
+2. Undirected Investor-Investor Graph: two investors share an edge if they invest to the same stock in a same quarter.  This graph is used for community detection (Louvain algorithm)
 
-3. Investor-Stock Bipartite Graph: an investor and a stock have an edge if an investor invests to a stock.
+3. Investor-Stock Bipartite Graph: an investor and a stock have an edge if an investor invests to a stock. This graph is directly fed into JODIE.  Edge features are crafted from SF1 dataset.
+
+
+For evaluation purpose, we calculate average quarterly return and holding periods of each investors in Investor_Summary.ipynb, and compared those indicators with the results of role detection and community detection in Evaluation.ipynb. 
