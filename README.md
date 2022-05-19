@@ -1,9 +1,9 @@
-Repository for a project for CS224W Machine Learning with Graphs at Stanford
+# Repository for a project for CS224W Machine Learning with Graphs at Stanford
 
 
-for dataset: https://www.quandl.com/databases/SFA/data
+dataset: https://www.quandl.com/databases/SFA/data
 
-for JODIE: https://github.com/srijankr/jodie/
+model: https://github.com/srijankr/jodie/
 
 
 As described in project report and poster, we constructed three graphs using SF3 dataset.
