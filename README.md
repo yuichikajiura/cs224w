@@ -1,4 +1,4 @@
-Repository for cs224w project "Stock Recommendation using Information Connection from Financial Bipartite Graph"
+Repository for a project for CS224W Machine Learning with Graphs at Stanford
 
 
 for dataset: https://www.quandl.com/databases/SFA/data
